@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sadiq.iprint.register"
+    tools:showIn="@layout/activity_register">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+       />
+
+    <EditText
+        android:id="@+id/RName"
+        android:layout_marginTop="35dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:text="Email"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/REmail"
+        android:layout_marginTop="145dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="230dp"
+        android:text="Password"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/RPassword"
+        android:layout_height="50dp"
+        android:layout_marginTop="258dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"/>
+
+
+
+    <Button
+        android:id="@+id/bRegister"
+        android:text="Register"
+        android:layout_marginTop="350dp"
+        android:layout_width="200dp"
+        android:layout_marginLeft="75dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
